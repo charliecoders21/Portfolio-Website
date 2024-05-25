@@ -12,6 +12,14 @@ const Stairtransition = () => {
         <div className="h-screen w-screen fixed top-0 right-0 left-0 pointer-events-none z-50 flex">
           <Stairs />
         </div>
+        <motion.div
+          className="h-screen w-screen fixed bg-primary top-0 pointer-events-none"
+          initial={{ opacity: 1 }}
+          animate={{
+            opacity: 0,
+            transition: { duration: 0.4, delay: 1, ease: "easeInOut" },
+          }}
+        />
       </div>
     </AnimatePresence>
   );
