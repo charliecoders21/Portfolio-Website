@@ -7,7 +7,7 @@ const statsStuff = [
   },
   {
     num: 5,
-    text: "Projects Coompleted",
+    text: "Projects Completed",
   },
   {
     num: 8,

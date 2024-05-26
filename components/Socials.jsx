@@ -3,19 +3,19 @@ import Link from "next/link";
 const socialSite = [
   {
     icons: <FaGithub />,
-    path: "",
+    path: "https://github.com/",
   },
   {
     icons: <FaLinkedin />,
-    path: "",
+    path: "https://www.linkedin.com/in/chintan-negi-ba1481242/",
   },
   {
     icons: <FaYoutube />,
-    path: "",
+    path: "https://www.youtube.com/",
   },
   {
     icons: <FaTwitter />,
-    path: "",
+    path: "https://x.com/",
   },
 ];
 const Socials = ({ containerStyles, iconStyles }) => {
