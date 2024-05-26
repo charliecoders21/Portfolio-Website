@@ -20,7 +20,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="https://www.imghippo.com/i/HxCA81716705249.png"
+            src="https://postimg.cc/zbrcYGc1"
             priority
             quality={100}
             fill
