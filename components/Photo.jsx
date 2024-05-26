@@ -1,7 +1,7 @@
 "use client";
 import { delay, motion } from "framer-motion";
 import Image from "next/image";
-import profilePic from "../public/IMG_0434-removebg-preview-modified.PNG";
+import profilePic from "../IMG_0434-removebg-preview-modified.PNG";
 const Photo = () => {
   return (
     <div className="w-full h-full relative">
