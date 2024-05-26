@@ -20,7 +20,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/IMG_0434-removebg-preview-modified.PNG"
+            src="https://ibb.co/jrnbDMs"
             priority
             quality={100}
             fill
