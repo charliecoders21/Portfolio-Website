@@ -26,7 +26,7 @@ const links = [
     path: "/contact",
   },
 ];
-const pathname = () => usePathname();
+const Pathname = () => usePathname();
 
 const MobileNav = () => {
   return (
@@ -49,7 +49,7 @@ const MobileNav = () => {
                 href={link.path}
                 key={index}
                 className={`${
-                  link.path === pathname &&
+                  link.path === Pathname &&
                   "text-accent border-b-2 border-accent"
                 }text-xl capitalize hover:text-accent transition-all`}
               >
