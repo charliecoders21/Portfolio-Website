@@ -21,6 +21,7 @@ const Photo = () => {
         >
           <Image
             src="https://www.imghippo.com/i/HxCA81716705249.png"
+            // src="/assets/IMG_0434-removebg-preview-modified.png"
             priority
             quality={100}
             fill
