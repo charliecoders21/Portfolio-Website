@@ -1,7 +1,6 @@
 "use client";
 import { delay, motion } from "framer-motion";
 import Image from "next/image";
-import profilePic from "../IMG_0434-removebg-preview-modified.PNG";
 const Photo = () => {
   return (
     <div className="w-full h-full relative">
@@ -21,7 +20,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src={profilePic}
+            src="/assets/IMG_0434-removebg-preview-modified.png"
             priority
             quality={100}
             fill
