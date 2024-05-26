@@ -34,7 +34,7 @@ const about = {
     },
     {
       fieldName: "Mobile",
-      fieldValue: "(+91) 981 139 3219",
+      fieldValue: "(+91) 984 639 3919",
     },
     {
       fieldName: "Experience",
@@ -51,7 +51,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "Chintan.negi12@gmail.com",
+      fieldValue: "youremail@gmail.com",
     },
   ],
 };
