@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Services from "@/app/services/page";
 const links = [
   {
     name: "home",
